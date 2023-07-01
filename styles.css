@@ -1,0 +1,63 @@
+body {
+  background-color: lightgreen;
+}
+
+.container {
+  padding: 20px;
+}
+.kiri {
+  width: 600px;
+  float: left;
+}
+
+.kiri img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+.kiri p {
+  font-size: 12px arial;
+  text-align: justify;
+  color: black;
+}
+
+.kanan {
+  width: 600px;
+  float: right;
+}
+
+.kanan img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+.kanan p {
+  font-size: 12px arial;
+  text-align: justify;
+  color: black;
+}
+
+.tengah {
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 110%;
+  transform: translate(-50%, -110%);
+}
+
+.tengah img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+.tengah p {
+  font-size: 12px arial;
+  text-align: justify;
+  color: black;
+}
